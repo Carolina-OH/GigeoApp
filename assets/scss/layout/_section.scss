@@ -1,0 +1,20 @@
+.perfil{
+
+    &__container{
+        padding-top: 20px;
+        padding-left: 35px;
+        &__img{
+        width: 10%;
+        border-radius: 100px;
+        height: 132px;
+            @include respond-to($bp-sm){
+                width: 90%;
+                height:75px;
+            }
+        }
+    }
+    &__seguidores{
+        padding-left: 20px;
+        padding-top: 20px;
+    }
+}
