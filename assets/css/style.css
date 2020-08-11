@@ -9923,8 +9923,8 @@ header {
   }
 }
 .perfil__container {
-  padding-top: 10px;
-  margin-left: 100px;
+  padding-top: 0.625rem;
+  margin-left: 8.125rem;
   align-items: top;
   justify-content: space-between;
 }
@@ -9947,7 +9947,7 @@ header {
 }
 .perfil h4 {
   font-size: 18px;
-  padding-left: 5px;
+  padding-left: 15px;
   padding-top: 20px;
   margin: 0;
 }
@@ -9955,13 +9955,6 @@ header {
   font-size: 15px;
   color: gray;
   padding-top: 3px;
-}
-.perfil__botones {
-  align-self: center;
-  margin-right: 100px;
-}
-.perfil__botones .btn {
-  border-radius: 0;
 }
 
 .photos {
@@ -10006,6 +9999,14 @@ header {
 
 .nav-link {
   color: black;
+}
+
+.perfil__botones {
+  align-self: center;
+  margin-right: 100px;
+}
+.perfil__botones .btn {
+  border-radius: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
