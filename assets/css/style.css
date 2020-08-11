@@ -9935,14 +9935,14 @@ header {
   }
 }
 .perfil__container__img {
-  width: 35%;
+  width: 4.6875rem;
   border-radius: 100px;
-  height: 65px;
+  height: 4.375rem;
 }
 @media (max-width: 576px) {
   .perfil__container__img {
-    width: 38%;
-    height: 75px;
+    width: 4.375rem;
+    height: 4.375rem;
   }
 }
 .perfil h4 {
