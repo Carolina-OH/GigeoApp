@@ -10038,6 +10038,13 @@ header {
 }
 .perfil__botones .btn {
   border-radius: 0;
+  color: white;
+}
+.perfil__botones .btn-1 {
+  background-color: #92dce5;
+}
+.perfil__botones .btn-2 {
+  background-color: #ef6461;
 }
 
 /*# sourceMappingURL=style.css.map */
