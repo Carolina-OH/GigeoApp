@@ -9927,8 +9927,6 @@ header {
 .perfil__container {
   padding-top: 0.625rem;
   margin-left: 8.125rem;
-  align-items: top;
-  justify-content: space-between;
 }
 @media (max-width: 576px) {
   .perfil__container {

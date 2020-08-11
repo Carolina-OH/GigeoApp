@@ -7,8 +7,6 @@ border-bottom: 1px solid lightgray;
     &__container{
         padding-top: 0.625rem;
         margin-left:8.125rem;
-        align-items: top;
-        justify-content: space-between;
         @include respond-to($bp-sm){
         margin-left: 10%;
         margin-top: 3%;
