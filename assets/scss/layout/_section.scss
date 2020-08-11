@@ -13,11 +13,11 @@ border-bottom: 1px solid lightgray;
         }
         &__img{
         width:4.6875rem;
-        border-radius: 100px;
-        height: 4.375rem;
+        border-radius: 50%;
+        height: 4.6875rem;
             @include respond-to($bp-sm){
                 width: 4.475rem;
-                height:4.375rem;
+                height:4.475rem;
                 margin-left: 0.625rem;
             }
         }
