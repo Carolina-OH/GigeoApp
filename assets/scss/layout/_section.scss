@@ -18,13 +18,16 @@ border-bottom: 1px solid lightgray;
         border-radius: 100px;
         height: 4.375rem;
             @include respond-to($bp-sm){
-                width: 4.375rem;
+                width: 4.475rem;
                 height:4.375rem;
+                margin-left: 0.625rem;
             }
         }
     }
     h4{
-        font-size: 18px;
+        font-size: 21px;
+        font-family: $secondary-font;
+        font-weight: $secondary-font-bold;
         padding-left: 15px;
         padding-top: 20px;
         margin: 0;
@@ -32,6 +35,8 @@ border-bottom: 1px solid lightgray;
             font-size: 15px;
             color: gray;
             padding-top: 3px;
+            font-family: $primary-font;
+            font-weight: $primary-font-regular;
             
         }
      }

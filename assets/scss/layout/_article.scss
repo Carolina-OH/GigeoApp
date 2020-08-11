@@ -16,11 +16,22 @@ margin-bottom: 50px;
     border: none;
     .card-img{
         border-radius:0;
+        align-content: center;
+        height: 20vh;
+        }
+    .card-text{
+        font-size: 18px;
+        font-weight: bold;
     }
-}
+    }
 
 .row{
     padding-left: 10%;
     padding-right: 10%;
     row-gap: 20px;
-}
+    @include respond-to($bp-sm){
+        padding-left: 0;
+        padding-right: 0;
+         }
+ }
+

@@ -5,6 +5,22 @@ $bp-lg:992px;
 $bp-xl:1200px;
 
 //Font
-$primary-font:'Open Sans', sans-serif;
-$primary-font-bold:600;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@400;500&display=swap');
+$popins:'Poppins', sans-serif;
+$popins-regular:400;
+$popins-bold:500;
 
+$primary-font:$popins;
+$primary-font-bold:$popins-bold;
+$primary-font-regular:$popins-regular;
+
+$monserrat:'Montserrat', sans-serif;
+$monserrat-bold:700;
+$monserrat-medium:500;
+
+$secondary-font:$monserrat;
+$secondary-font-bold:$monserrat-bold;
+$secondary-font-medium:$monserrat-medium;
+
+//color
+$grey-logo:rgba(85,89,92);
