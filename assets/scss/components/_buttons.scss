@@ -3,5 +3,12 @@
     margin-right: 100px;
         .btn{
             border-radius: 0;
+            color: white;
+            }
+        .btn-1{
+            background-color: $sky-blue;
+        }
+        .btn-2{
+            background-color: $rojo-claro;
         }
     }
