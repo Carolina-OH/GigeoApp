@@ -1,6 +1,15 @@
 .navbar{
+    margin-left:5%;
+    margin-right: 5%;
     &__logo{
         font-size: 30px;
+    }
 
+    &-toggler{
+        color: grey;
+        
     }
 }
+.nav-link{
+    color: black;
+    }

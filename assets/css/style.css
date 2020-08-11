@@ -9993,8 +9993,19 @@ header {
   row-gap: 20px;
 }
 
+.navbar {
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .navbar__logo {
   font-size: 30px;
+}
+.navbar-toggler {
+  color: grey;
+}
+
+.nav-link {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
