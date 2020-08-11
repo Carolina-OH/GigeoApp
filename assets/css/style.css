@@ -9893,6 +9893,11 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
 header {
   background-image: url(../img/image-banner.png);
   width: 100%;
@@ -9908,24 +9913,88 @@ header {
     height: 5rem;
   }
 }
+.perfil {
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+@media (max-width: 576px) {
+  .perfil {
+    border-bottom: none;
+  }
+}
 .perfil__container {
-  padding-top: 20px;
-  padding-left: 35px;
+  padding-top: 10px;
+  margin-left: 100px;
+  align-items: top;
+  justify-content: space-between;
+}
+@media (max-width: 576px) {
+  .perfil__container {
+    margin-left: 10%;
+    margin-top: 3%;
+  }
 }
 .perfil__container__img {
-  width: 10%;
+  width: 35%;
   border-radius: 100px;
-  height: 132px;
+  height: 65px;
 }
 @media (max-width: 576px) {
   .perfil__container__img {
-    width: 90%;
+    width: 38%;
     height: 75px;
   }
 }
-.perfil__seguidores {
-  padding-left: 20px;
+.perfil h4 {
+  font-size: 18px;
+  padding-left: 5px;
   padding-top: 20px;
+  margin: 0;
+}
+.perfil h4 p {
+  font-size: 15px;
+  color: gray;
+  padding-top: 3px;
+}
+.perfil__botones {
+  align-self: center;
+  margin-right: 100px;
+}
+.perfil__botones .btn {
+  border-radius: 0;
+}
+
+.photos {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.photos__videos {
+  text-align: left;
+  padding-left: 10%;
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .photos__videos {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+
+.card {
+  border: none;
+}
+.card .card-img {
+  border-radius: 0;
+}
+
+.row {
+  padding-left: 10%;
+  padding-right: 10%;
+  row-gap: 20px;
+}
+
+.navbar__logo {
+  font-size: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

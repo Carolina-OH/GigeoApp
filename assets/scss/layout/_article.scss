@@ -1,0 +1,26 @@
+.photos{
+margin-top: 20px;
+margin-bottom: 50px;
+    &__videos{
+        text-align: left;
+        padding-left: 10%;
+        font-size: 20px;
+        @include respond-to($bp-sm){
+           text-align: center;
+           padding-left: 0;
+            }
+    }
+}
+
+.card{
+    border: none;
+    .card-img{
+        border-radius:0;
+    }
+}
+
+.row{
+    padding-left: 10%;
+    padding-right: 10%;
+    row-gap: 20px;
+}
