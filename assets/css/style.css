@@ -9910,7 +9910,7 @@ header {
   background-origin: border-box;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   header {
     height: 5rem;
   }
@@ -9919,7 +9919,7 @@ header {
   justify-content: space-between;
   border-bottom: 1px solid lightgray;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .perfil {
     border-bottom: none;
   }
@@ -9933,7 +9933,7 @@ header {
   padding-top: 0.625rem;
   margin-left: 8.125rem;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .perfil__container {
     margin-left: 10%;
     margin-top: 3%;
@@ -9949,7 +9949,7 @@ header {
   border-radius: 50%;
   height: 4.6875rem;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .perfil__img {
     width: 4.475rem;
     height: 4.475rem;
@@ -9981,7 +9981,7 @@ header {
   padding-left: 10%;
   font-size: 20px;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .photos__videos {
     text-align: center;
     padding-left: 0;
@@ -10014,7 +10014,7 @@ header {
   padding-right: 10%;
   row-gap: 20px;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .photos__row {
     padding-left: 0;
     padding-right: 0;
@@ -10025,7 +10025,7 @@ header {
   margin-left: 5%;
   margin-right: 5%;
 }
-@media (max-width: 576px) {
+@media (max-width: 767px) {
   .navigator {
     margin-top: 4%;
     margin-bottom: 4%;

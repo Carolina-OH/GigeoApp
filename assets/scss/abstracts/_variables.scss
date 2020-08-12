@@ -3,7 +3,7 @@ $grey-logo:rgba(85,89,92);
 $sky-blue:rgba(146,220,229);
 $rojo-claro:rgba(239,100,97);
 //breakpoints
-$bp-sm:576px;
+$bp-sm:767px;//sé que el  breakpoint de sm es 576px, pero lo puse en 767px porque uso un max-width y quiero que tome pantallas xs y sm hasta antes de md.
 $bp-md:768px;
 $bp-lg:992px;
 $bp-xl:1200px;
