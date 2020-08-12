@@ -9,6 +9,9 @@ margin-bottom: 50px;
            text-align: center;
            padding-left: 0;
             }
+        @include respond-to-md($bp-md){
+          text-align: center;  
+        }
     }
     &__card{
         border: none;
