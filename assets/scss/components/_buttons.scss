@@ -1,14 +1,21 @@
-.perfil__botones{
-    align-self: center;
-    margin-right: 100px;
-        .btn{
+.perfil{
+   
+    &__botones{
+        align-self: center;
+        margin-right: 100px;
+        display: flex;
+
+    }
+    &__btn-1{
+            background-color: $sky-blue;
             border-radius: 0;
             color: white;
-            }
-        .btn-1{
-            background-color: $sky-blue;
-        }
-        .btn-2{
-            background-color: $rojo-claro;
-        }
+            margin-right: 20px;
+            
     }
+    &__btn-2{
+            background-color: $rojo-claro;
+            border-radius: 0;
+            color: white;
+    }
+}

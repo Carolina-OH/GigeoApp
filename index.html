@@ -11,30 +11,31 @@
 </head>
 
 <body>
-  <nav class="navbar bg-white navbar-expand-lg">
-    <div class="navbar__logo">
-      GIGEO<span>ART</span>
+  <nav class="navbar navigator bg-white navbar-expand-lg">
+    <div class="navigator__logo">
+      <span class="navigator__span-1">GIGEO</span>
+      <span class="navigator__span-2">ART</span>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <button class="navbar-toggler navigator__burger" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars fa-lg"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-search"></i> <span class="sr-only">(current)</span></a>
+        <li class="nav-item navigator__item">
+          <a class="nav-link navigator__link-1" href="#"><i class="fas fa-search"></i> <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-video"></i></a>
+        <li class="nav-item">
+          <a class="nav-link navigator__link-2" href="#"><i class="fas fa-video"></i></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-plus"></i></a>
+        <li class="nav-item">
+          <a class="nav-link navigator__link-2" href="#"><i class="fas fa-plus"></i></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+        <li class="nav-item">
+          <a class="nav-link navigator__link-4" href="#"><i class="fas fa-bell"></i></a>
         </li>
-        <li class="nav-item active d-none d-md-block">
-          <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link navigator__link-5" href="#"><i class="fas fa-bars"></i></a>
         </li>
       </ul>
     </div>
@@ -45,15 +46,15 @@
 
   <section class="d-flex perfil">
     <div class="perfil__container d-flex">
-      <img class="perfil__container__img" src="assets/img/profile-image.png" alt="">
-      <h4>Yuki Mukami
-        <p>30.000 seguidores</p>
+      <img class="perfil__img" src="assets/img/profile-image.png" alt="">
+      <h4 class="perfil__h4">Yuki Mukami
+      <p class="perfil__p">30.000 seguidores</p>
       </h4>
     </div>
 
     <div class="perfil__botones pt-1 pr-3 d-none d-lg-block">
-      <button type="button" class="btn btn-1">Mensaje</button>
-      <button type="button" class="btn btn-2">Seguir</button>
+      <button type="button" class="btn perfil__btn-1">Mensaje</button>
+      <button type="button" class="btn perfil__btn-2">Seguir</button>
     </div>
   </section>
 
