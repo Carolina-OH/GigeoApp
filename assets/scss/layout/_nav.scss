@@ -5,6 +5,10 @@
         margin-top: 4%;
         margin-bottom: 4%;
     }
+    @include respond-to-md($bp-md){
+        margin-top: 2%;
+        margin-bottom:2%;    
+    } 
     &__span-1{
         font-size: 35px;
         font-family: $primary-font;

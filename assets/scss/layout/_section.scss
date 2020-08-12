@@ -1,9 +1,13 @@
 .perfil{
-justify-content: space-between;
-border-bottom: 1px solid lightgray;
-@include respond-to($bp-sm){
-    border-bottom: none;
-}
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    @include respond-to($bp-sm){
+        border-bottom: none;
+    }
+    @include respond-to-md($bp-md){
+        justify-content: center;
+
+    } 
     &__container{
         padding-top: 0.625rem;
         margin-left:8.125rem;
@@ -11,6 +15,9 @@ border-bottom: 1px solid lightgray;
             margin-left: 10%;
             margin-top: 3%;
             }
+            @include respond-to-md($bp-md){
+                margin-left: 0;
+            } 
     }
     &__img{
         width:4.6875rem;
