@@ -11,30 +11,31 @@
 </head>
 
 <body>
-  <nav class="navbar bg-white navbar-expand-lg">
-    <div class="navbar__logo">
-      GIGEO<span>ART</span>
+  <nav class="navbar navigator bg-white navbar-expand-lg">
+    <div class="navigator__logo">
+      <span class="navigator__span-1">GIGEO</span>
+      <span class="navigator__span-2">ART</span>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    <button class="navbar-toggler navigator__burger" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fas fa-bars fa-lg"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-search"></i> <span class="sr-only">(current)</span></a>
+        <li class="nav-item navigator__item">
+          <a class="nav-link navigator__link-1" href="#"><i class="fas fa-search"></i> <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-video"></i></a>
+        <li class="nav-item">
+          <a class="nav-link navigator__link-2" href="#"><i class="fas fa-video"></i></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-plus"></i></a>
+        <li class="nav-item">
+          <a class="nav-link navigator__link-2" href="#"><i class="fas fa-plus"></i></a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+        <li class="nav-item">
+          <a class="nav-link navigator__link-4" href="#"><i class="fas fa-bell"></i></a>
         </li>
-        <li class="nav-item active d-none d-md-block">
-          <a class="nav-link" href="#"><i class="fas fa-bars"></i></a>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link navigator__link-5" href="#"><i class="fas fa-bars"></i></a>
         </li>
       </ul>
     </div>
@@ -45,90 +46,90 @@
 
   <section class="d-flex perfil">
     <div class="perfil__container d-flex">
-      <img class="perfil__container__img" src="assets/img/profile-image.png" alt="">
-      <h4>Yuki Mukami
-        <p>30.000 seguidores</p>
+      <img class="perfil__img" src="assets/img/profile-image.png" alt="">
+      <h4 class="perfil__h4">Yuki Mukami
+      <p class="perfil__p">30.000 seguidores</p>
       </h4>
     </div>
 
     <div class="perfil__botones pt-1 pr-3 d-none d-lg-block">
-      <button type="button" class="btn btn-1">Mensaje</button>
-      <button type="button" class="btn btn-2">Seguir</button>
+      <button type="button" class="btn perfil__btn-1">Mensaje</button>
+      <button type="button" class="btn perfil__btn-2">Seguir</button>
     </div>
   </section>
 
 
   <article class="photos">
     <p class="photos__videos">Videos Populares</p>
-    <div class="row mt-4 d-flex">
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-1.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">Después de la vela - Yuki Mukami.</p>
+    <div class="row mt-4 d-flex photos__row">
+      <div class="col-sm-12 col-md-4  col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-1.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">Después de la vela - Yuki Mukami.</p>
             <small class="text-left">16k vistas - 1 semana atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-2.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">Far Away - Yuki Mukami</p>
+      <div class="col-sm-12 col-md-4  col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-2.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">Far Away - Yuki Mukami</p>
             <small class="text-left">100k vistas - 1 mes atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-3.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">City - Yuki Mukami</p>
+      <div class="col-sm-12 col-md-4  col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-3.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">City - Yuki Mukami</p>
             <small class="text-left">20k vistas - 1 mes atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-4.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">A Yuki Tale - Yuki Mukami</p>
+      <div class="col-sm-12 col-md-4  col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-4.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">A Yuki Tale - Yuki Mukami</p>
             <small class="text-left">1m vistas - 1 año atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-5.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">Mapocho - Yuki Mukami</p>
+      <div class="col-sm-12 col-md-4  col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-5.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">Mapocho - Yuki Mukami</p>
             <small class="text-left">100k vistas - 1 mes atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-6.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">Lucky Days - Yuki Mikami</p>
+      <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-6.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">Lucky Days - Yuki Mikami</p>
             <small class="text-left">40k vistas - 3 meses atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-7.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">30 days in My House</p>
+      <div class="col-sm-12 col-md-4 col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-7.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">30 days in My House</p>
             <small class="text-left">10k vistas - 4 meses atrás</small>
           </div>
         </div>
       </div>
-      <div class="col-sm-12 col-lg-3 d-flex justify-content-center">
-        <div class="card" style="width: 16rem;">
-          <img class="card-img" src="assets/img/image-8.png" alt="Card image cap">
-          <div class="card-body p-0">
-            <p class="card-text mb-0">Santiago - Yuki Mukami</p>
+      <div class="col-sm-12 col-md-4  col-lg-3 d-flex justify-content-center">
+        <div class="card photos__card" style="width: 16rem;">
+          <img class="card-img photos__img" src="assets/img/image-8.png" alt="Card image cap">
+          <div class="card-body photos__body p-0">
+            <p class="card-text photos__text mb-0">Santiago - Yuki Mukami</p>
             <small class="text-left">40k vistas - 3 meses atrás</small>
           </div>
         </div>
