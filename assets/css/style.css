@@ -9987,6 +9987,11 @@ header {
     padding-left: 0;
   }
 }
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .photos__videos {
+    text-align: center;
+  }
+}
 .photos__card {
   border: none;
 }
